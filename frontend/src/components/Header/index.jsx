@@ -22,6 +22,19 @@ export default function Header() {
                         </button>
                     </div>
                 </div>
+
+
+                {/* Botões */}
+                <nav className='navbar'>
+                    <ul>
+                        <li>
+                            <Link to='/Signin' className='entrarBtn'>Entrar</Link>
+                        </li>
+                        <li>
+                            <Link to='/' className='anunciarBtn'>Anunciar Grátis</Link>
+                        </li>
+                    </ul>
+                </nav>
         </header>
     )
 }
